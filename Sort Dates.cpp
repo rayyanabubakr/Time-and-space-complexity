@@ -56,15 +56,6 @@ void print(vector<int>& arr)
   cout << endl;
 }
 
-// used for swapping ith and jth elements of array
-void swap(vector<int>& arr, int i, int j)
-{
-  // cout << ("Swapping index " + to_string(i) + " and index " + to_string(j)) << endl;
-  int temp = arr[i];
-  arr[i] = arr[j];
-  arr[j] = temp;
-}
-
 void sort01(vector<int>& arr)
 {
   countSort(arr, 1000000, 100, 32);
